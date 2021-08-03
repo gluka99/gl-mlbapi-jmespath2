@@ -1,0 +1,34 @@
+2021-07-28 00:32:36 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "Dak MLB Oauth forwarder wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-28 00:32:36 - Started 70376
+2021-07-28 00:33:06 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "Dak MLB Oauth forwarder wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-28 00:33:06 - Started 30804
+2021-07-28 01:07:13 - Stopping dakmlboauthforwarder.exe
+2021-07-28 01:07:13 - ProcessKill 30804
+2021-07-28 01:07:13 - Found child process: 99048 Name: conhost.exe
+2021-07-28 01:07:13 - Found child process: 1280 Name: node.exe
+2021-07-28 01:07:13 - Stopping process 99048
+2021-07-28 01:07:13 - Send SIGINT 99048
+2021-07-28 01:07:13 - SIGINT to 99048 failed - Killing as fallback
+2021-07-28 01:07:14 - Stopping process 1280
+2021-07-28 01:07:14 - Send SIGINT 1280
+2021-07-28 01:07:14 - SIGINT to 1280 failed - Killing as fallback
+2021-07-28 01:07:14 - Stopping process 30804
+2021-07-28 01:07:14 - Send SIGINT 30804
+2021-07-28 01:07:14 - SIGINT to 30804 failed - Killing as fallback
+2021-07-28 01:07:14 - Finished dakmlboauthforwarder.exe
+2021-07-29 12:10:39 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "Dak MLB Oauth forwarder wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-29 12:10:39 - Started 9548
+2021-08-02 16:49:45 - Stopping dakmlboauthforwarder.exe
+2021-08-02 16:49:45 - ProcessKill 9548
+2021-08-02 16:49:45 - Found child process: 9588 Name: conhost.exe
+2021-08-02 16:49:45 - Found child process: 10612 Name: node.exe
+2021-08-02 16:49:45 - Stopping process 9588
+2021-08-02 16:49:45 - Send SIGINT 9588
+2021-08-02 16:49:45 - SIGINT to 9588 failed - Killing as fallback
+2021-08-02 16:49:45 - Stopping process 10612
+2021-08-02 16:49:45 - Send SIGINT 10612
+2021-08-02 16:49:45 - SIGINT to 10612 failed - Killing as fallback
+2021-08-02 16:49:45 - Stopping process 9548
+2021-08-02 16:49:45 - Send SIGINT 9548
+2021-08-02 16:49:45 - SIGINT to 9548 failed - Killing as fallback
+2021-08-02 16:49:45 - Finished dakmlboauthforwarder.exe

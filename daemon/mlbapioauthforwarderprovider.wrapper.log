@@ -1,0 +1,34 @@
+2021-07-28 00:08:35 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "MLB API OAuth forwarderprovider wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-28 00:08:36 - Started 94892
+2021-07-28 00:09:11 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "MLB API OAuth forwarderprovider wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-28 00:09:11 - Started 32244
+2021-07-28 00:10:30 - Stopping mlbapioauthforwarderprovider.exe
+2021-07-28 00:10:30 - ProcessKill 32244
+2021-07-28 00:10:30 - Found child process: 2232 Name: conhost.exe
+2021-07-28 00:10:30 - Found child process: 47848 Name: node.exe
+2021-07-28 00:10:30 - Stopping process 2232
+2021-07-28 00:10:30 - Send SIGINT 2232
+2021-07-28 00:10:30 - SIGINT to 2232 failed - Killing as fallback
+2021-07-28 00:10:30 - Stopping process 47848
+2021-07-28 00:10:30 - Send SIGINT 47848
+2021-07-28 00:10:30 - SIGINT to 47848 failed - Killing as fallback
+2021-07-28 00:10:30 - Stopping process 32244
+2021-07-28 00:10:30 - Send SIGINT 32244
+2021-07-28 00:10:30 - SIGINT to 32244 failed - Killing as fallback
+2021-07-28 00:10:30 - Finished mlbapioauthforwarderprovider.exe
+2021-07-28 00:25:12 - Starting C:\Program Files\nodejs\node.exe  --harmony c:\Users\gluka\rest-api\node_modules\node-windows\lib\wrapper.js --file C:\Users\gluka\rest-api\index.js --scriptoptions= --log "MLB API OAuth forwarderprovider wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-28 00:25:12 - Started 63460
+2021-07-28 00:31:46 - Stopping mlbapioauthforwarderprovider.exe
+2021-07-28 00:31:46 - ProcessKill 63460
+2021-07-28 00:31:46 - Found child process: 61920 Name: conhost.exe
+2021-07-28 00:31:46 - Found child process: 67928 Name: node.exe
+2021-07-28 00:31:46 - Stopping process 61920
+2021-07-28 00:31:46 - Send SIGINT 61920
+2021-07-28 00:31:46 - SIGINT to 61920 failed - Killing as fallback
+2021-07-28 00:31:46 - Stopping process 67928
+2021-07-28 00:31:46 - Send SIGINT 67928
+2021-07-28 00:31:46 - SIGINT to 67928 failed - Killing as fallback
+2021-07-28 00:31:46 - Stopping process 63460
+2021-07-28 00:31:46 - Send SIGINT 63460
+2021-07-28 00:31:46 - SIGINT to 63460 failed - Killing as fallback
+2021-07-28 00:31:46 - Finished mlbapioauthforwarderprovider.exe

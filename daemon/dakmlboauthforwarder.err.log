@@ -1,0 +1,693 @@
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4243
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Object.<anonymous> (C:\Users\gluka\rest-api\index.js:72:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4243
+}
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4243
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Object.<anonymous> (C:\Users\gluka\rest-api\index.js:72:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4243
+}
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4243
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Object.<anonymous> (C:\Users\gluka\rest-api\index.js:72:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4243
+}
+(node:1280) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (C:\Users\gluka\rest-api\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\gluka\rest-api\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\gluka\rest-api\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1280) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1280) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'statsapi.mlb.com',
+  config: {
+    url: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    method: 'post',
+    data: '{}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      'User-Agent': 'axios/0.21.1',
+      'Content-Length': 2
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus]
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'https:',
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      method: 'POST',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: 'statsapi.mlb.com',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/api/v1/authentication/okta/token/refresh',
+      search: '?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 2,
+    _requestBodyBuffers: [ [Object] ],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'POST /api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json;charset=utf-8\r\n' +
+        'User-Agent: axios/0.21.1\r\n' +
+        'Content-Length: 2\r\n' +
+        'Host: statsapi.mlb.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'statsapi.mlb.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'statsapi.mlb.com',
+  config: {
+    url: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    method: 'post',
+    data: '{}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      'User-Agent': 'axios/0.21.1',
+      'Content-Length': 2
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus]
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'https:',
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      method: 'POST',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: 'statsapi.mlb.com',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/api/v1/authentication/okta/token/refresh',
+      search: '?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 2,
+    _requestBodyBuffers: [ [Object] ],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'POST /api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json;charset=utf-8\r\n' +
+        'User-Agent: axios/0.21.1\r\n' +
+        'Content-Length: 2\r\n' +
+        'Host: statsapi.mlb.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'statsapi.mlb.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:10612) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10612) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:10612) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'statsapi.mlb.com',
+  config: {
+    url: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    method: 'post',
+    data: '{}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      'User-Agent': 'axios/0.21.1',
+      'Content-Length': 2
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus]
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'https:',
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      method: 'POST',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: 'statsapi.mlb.com',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/api/v1/authentication/okta/token/refresh',
+      search: '?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 2,
+    _requestBodyBuffers: [ [Object] ],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'POST /api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json;charset=utf-8\r\n' +
+        'User-Agent: axios/0.21.1\r\n' +
+        'Content-Length: 2\r\n' +
+        'Host: statsapi.mlb.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'statsapi.mlb.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:10612) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+(node:10612) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'statsapi.mlb.com',
+  config: {
+    url: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    method: 'post',
+    data: '{}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      'User-Agent': 'axios/0.21.1',
+      'Content-Length': 2
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus]
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'https:',
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      method: 'POST',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: 'statsapi.mlb.com',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/api/v1/authentication/okta/token/refresh',
+      search: '?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 2,
+    _requestBodyBuffers: [ [Object] ],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'POST /api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json;charset=utf-8\r\n' +
+        'User-Agent: axios/0.21.1\r\n' +
+        'Content-Length: 2\r\n' +
+        'Host: statsapi.mlb.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'statsapi.mlb.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'https://statsapi.mlb.com/api/v1/authentication/okta/token/refresh?refreshToken=wkKYhpG8gP-9Bkcnlbybb-7G6d52z9z5bErmd07Dp2s',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:10612) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND statsapi.mlb.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+(node:10612) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
